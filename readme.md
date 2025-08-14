@@ -14,11 +14,13 @@ Permite administrar clientes, empleados, ventas, compras, canciones, álbums, pl
 ---
 
 ## 📂 Archivos del Proyecto
+    • ddl.sql (Base de Datos)
     • dql_select.sql (Consultas)
     • dql_funciones.sql (funciones)
     • dql_triggers.sql (triggers)
     • dql_eventos.sql (eventos)
     • Readme.md
+    • UML-ER.png
 
 
 ## 🚀 Instrucciones para cargar y probar el sistema en DBeaver
@@ -33,7 +35,10 @@ Abre el archivo `ddl.sql` y ejecuta todo su contenido.
 Abre el archivo `dql_triggers.sql` y ejecútalo completo. Verifica que los triggers se crearon revisando la pestaña “Triggers” en DBeaver o listándolos en la base de datos.
 
 ### 4. Cargar los consultas
-Abre el archivo `dql_select.sql` y ejecútalo completo. Confirma que aparecen en la sección “Procedures” de la base de datos.
+Abre el archivo `dql_select.sql` y ejecútalo completo.
+
+### 4. Cargar las funciones
+Abre el archivo `dql_funciones.sql` y ejecútalo completo.
 
 ### 5. Configurar eventos
 Abre el archivo `dql_eventos.sql` y ejecútalo como usuario root. Verifica que los usuarios existen y tienen los permisos correctos.
